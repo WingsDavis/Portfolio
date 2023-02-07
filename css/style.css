@@ -1,0 +1,93 @@
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: rgb(255, 255, 255)
+}
+
+/* Header */
+.cover-container {
+    max-width: 42em;
+}
+
+.nav-masthead .nav-link {
+    padding: .25rem 0;
+    font-weight: 700;
+    color: rgba(2, 54, 197, 0.968);
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+}
+
+.nav-link {
+    font-size: 30px;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+    border-bottom-color: rgba(2, 54, 197, 0.968);
+}
+
+.nav-masthead .nav-link+.nav-link {
+    margin-left: 1rem;
+}
+
+.nav-masthead .active {
+    color: #2e2525;
+    border-bottom-color: #fff;
+}
+
+.float-md-start {
+    font-family: Segoe Script;
+    color: rgba(0, 0, 0, 0.968);
+
+}
+
+.float-md-start:hover,
+.float-md-start:focus {
+    font-family: Segoe Script;
+    color: rgba(0, 0, 0, 0.968);
+    border-bottom: .25rem solid transparent;
+    border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+.text-white {
+    font-family: chiller;
+}
+
+@media (min-width: 992px) {
+    .rounded-lg-3 {
+        border-radius: .3rem;
+    }
+}
+
+.display-4 {
+    color: rgba(0, 0, 0, 0.968);
+    ;
+}
+
+.lead {
+    color: rgb(1, 25, 241);
+    ;
+}
+
+.follow {
+    color: #000000;
+}
+
+.pt-5 {
+    color: rgba(0, 0, 0, 0.968);
+}
+
+.display-3 {
+    color: #000000;
+}
+
+.act {
+    color: black;
+}
